@@ -51,7 +51,7 @@ function App() {
     period:"/month",
     features:[
       {
-      title:"5 Users",
+      title:<b>5 Users</b>,
       isEnable:true
     },
     {
@@ -90,7 +90,7 @@ function App() {
   period:"/month",
   features:[
     {
-    title:"Unlimited Users",
+    title:<b>Unlimited Users</b>,
     isEnable:true
   },
   {

@@ -2,8 +2,8 @@ import React from "react";
 import "./pricecard.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons'
-function PriceCard ({data}){
-    
+
+function PriceCard ({data}){  
     return (
         <>
       {/* <!-- Free Tier --> */}
@@ -20,15 +20,15 @@ function PriceCard ({data}){
                        <span className="fa-li">
                        {e.isEnable ? <FontAwesomeIcon icon={ faCheck}/>:<FontAwesomeIcon icon={faTimes} /> }
                        </span>
-                       {e.title}
+                      {e.isBold ? <strong>{e.title}</strong>:e.title}
                        </li>
                     ))
                 }
             </ul>
             <div className="d-grid">
-              <a href="fontawesome.in" className="btn btn-primary text-uppercase">Button</a>
+              <button className="btn btn-primary text-uppercase">Button</button>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
       </>

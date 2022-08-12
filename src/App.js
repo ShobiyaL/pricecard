@@ -51,8 +51,9 @@ function App() {
     period:"/month",
     features:[
       {
-      title:<b>5 Users</b>,
-      isEnable:true
+      title:"5 Users",
+      isEnable:true,
+      isBold:true
     },
     {
       title:"50GB Storage",
@@ -90,8 +91,9 @@ function App() {
   period:"/month",
   features:[
     {
-    title:<b>Unlimited Users</b>,
-    isEnable:true
+    title:"Unlimited Users",
+    isEnable:true,
+    isBold:true
   },
   {
     title:"150GB Storage",
@@ -113,7 +115,7 @@ function App() {
     isEnable:true
   },
   {
-    title:"Free Subdomain",
+    title:"Unlimited Free Subdomains",
     isEnable:true
   },
   {
